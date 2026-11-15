@@ -66,7 +66,7 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 18),
               Wrap(spacing: 8, runSpacing: 8, children: [
                 _StatPill(label: '${mdcatSubjects.length} subjects'),
-                _StatPill(label: '$totalUnits syllabus units'.replaceFirst('$', '')),
+                _StatPill(label: '${totalUnits} syllabus units'),
                 _StatPill(label: '${mdcatQuestions.length} starter MCQs'),
               ]),
             ]),
